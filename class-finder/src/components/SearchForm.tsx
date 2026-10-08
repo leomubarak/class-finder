@@ -29,7 +29,7 @@ export default function SearchForm({
           htmlFor="index-number"
           className="mb-1 block text-sm font-medium text-slate-800"
         >
-          Enter Your Index Number
+          Enter your index number
         </label>
         <input
           id="index-number"
