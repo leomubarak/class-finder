@@ -7,7 +7,12 @@ interface SearchFormProps {
   onSubmit: () => void;
 }
 
-export default function SearchForm({ value, error, onChange, onSubmit }: SearchFormProps) {
+export default function SearchForm({
+  value,
+  error,
+  onChange,
+  onSubmit,
+}: SearchFormProps) {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     onSubmit();
@@ -15,11 +20,16 @@ export default function SearchForm({ value, error, onChange, onSubmit }: SearchF
 
   return (
     <form onSubmit={handleSubmit} noValidate className="space-y-4">
-      <p className="text-slate-600">Find your assigned class using your index number.</p>
+      <p className="text-slate-600">
+        Find your assigned class using your index number.
+      </p>
 
       <div>
-        <label htmlFor="index-number" className="mb-1 block text-sm font-medium text-slate-800">
-          Index Number
+        <label
+          htmlFor="index-number"
+          className="mb-1 block text-sm font-medium text-slate-800"
+        >
+          Enter Your Index Number
         </label>
         <input
           id="index-number"
@@ -27,7 +37,7 @@ export default function SearchForm({ value, error, onChange, onSubmit }: SearchF
           type="text"
           inputMode="numeric"
           autoComplete="off"
-          placeholder="e.g. 5260100000"
+          placeholder="e.g. 5260170000"
           value={value}
           onChange={(e) => onChange(e.target.value)}
           aria-invalid={error ? true : undefined}
@@ -37,7 +47,11 @@ export default function SearchForm({ value, error, onChange, onSubmit }: SearchF
           }`}
         />
         {error && (
-          <p id="index-error" role="alert" className="mt-2 rounded-md border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">
+          <p
+            id="index-error"
+            role="alert"
+            className="mt-2 rounded-md border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800"
+          >
             {error}
           </p>
         )}
