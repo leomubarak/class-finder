@@ -38,6 +38,7 @@ export default function App() {
       </main>
       <footer className="border-t border-slate-200 py-4 text-center text-xs text-slate-500">
         <p>Developed By Mohammed Ali</p>
+        <p>Vice President</p>
         <p>INFOTESS Class Finder</p>
         <p>&copy; 2026</p>
       </footer>
