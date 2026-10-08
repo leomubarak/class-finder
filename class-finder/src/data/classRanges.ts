@@ -148,7 +148,7 @@ export const classRanges: ClassRange[] = [
   {
     start: BigInt("5260220000"),
     end: BigInt("5260220100"),
-    className: "BSc ITWeekend 1A Class",
+    className: "BSc IT Weekend 1A Class",
     whatsappLink: "https://chat.whatsapp.com/FQw0bmtoksC7qqeN6DXzPk",
   },
 ];
