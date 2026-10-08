@@ -139,4 +139,16 @@ export const classRanges: ClassRange[] = [
     className: "BSc Computing With Ai",
     whatsappLink: "https://chat.whatsapp.com/I0a3CVAamuS8SmQgLrlaHN",
   },
+  {
+    start: BigInt("5260250000"),
+    end: BigInt("5260250100"),
+    className: "BEd IT Weekend 1A Class",
+    whatsappLink: "https://chat.whatsapp.com/CtTecRxChwq6gI0Uv6iBrI",
+  },
+  {
+    start: BigInt("5260220000"),
+    end: BigInt("5260220100"),
+    className: "Weekend 1A Class",
+    whatsappLink: "https://chat.whatsapp.com/FQw0bmtoksC7qqeN6DXzPk",
+  },
 ];
