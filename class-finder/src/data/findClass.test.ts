@@ -5,9 +5,24 @@ import { findClass, MESSAGES } from "./findClass.ts";
 import type { ClassRange } from "./classRanges.ts";
 
 const ranges: ClassRange[] = [
-  { start: BigInt("5260100000"), end: BigInt("5260109999"), className: "Class A", whatsappLink: "a" },
-  { start: BigInt("5260110000"), end: BigInt("5260119999"), className: "Class B", whatsappLink: "b" },
-  { start: BigInt("5260170000"), end: BigInt("5260179999"), className: "Class E", whatsappLink: "e" },
+  {
+    start: BigInt("520100000"),
+    end: BigInt("5260109999"),
+    className: "Class A",
+    whatsappLink: "a",
+  },
+  {
+    start: BigInt("5260110000"),
+    end: BigInt("5260119999"),
+    className: "Class B",
+    whatsappLink: "b",
+  },
+  {
+    start: BigInt("5260170000"),
+    end: BigInt("5260179999"),
+    className: "Class E",
+    whatsappLink: "e",
+  },
 ];
 
 const cls = (input: string) => {

@@ -37,7 +37,8 @@ export default function App() {
         )}
       </main>
       <footer className="border-t border-slate-200 py-4 text-center text-xs text-slate-500">
-        <p>Class Finder</p>
+        <p>Developed By Mohammed Ali</p>
+        <p>INFOTSS Class Finder</p>
         <p>&copy; 2026</p>
       </footer>
     </div>
