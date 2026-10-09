@@ -38,7 +38,7 @@ export const classRanges: ClassRange[] = [
     whatsappLink: "https://chat.whatsapp.com/DhDW5nn74Z63zVmM8vVBY7",
   },
   {
-    start: BigInt("52601702301"),
+    start: BigInt("5260170301"),
     end: BigInt("5260170400"),
     className: "BSc IT 1D Class",
     whatsappLink: "https://chat.whatsapp.com/FgLJtnGepuY9EsDzWeUGiJ",
@@ -150,5 +150,11 @@ export const classRanges: ClassRange[] = [
     end: BigInt("5260220100"),
     className: "BSc IT Weekend 1A Class",
     whatsappLink: "https://chat.whatsapp.com/FQw0bmtoksC7qqeN6DXzPk",
+  },
+  {
+    start: BigInt("5260100000"),
+    end: BigInt("5260100100"),
+    className: "BSc IT Edu 1A Class",
+    whatsappLink: "https://chat.whatsapp.com/KWLuBTcpj01Db3amEQvULX",
   },
 ];
