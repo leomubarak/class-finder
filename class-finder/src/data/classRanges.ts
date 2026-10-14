@@ -92,7 +92,7 @@ export const classRanges: ClassRange[] = [
     whatsappLink: "https://chat.whatsapp.com/H8DG9IlT0meHm42BG7nB4v",
   },
   {
-    start: BigInt("52601102301"),
+    start: BigInt("5260110301"),
     end: BigInt("5260110400"),
     className: "BEd IT 1D Class",
     whatsappLink: "https://chat.whatsapp.com/CFsURyTcj837ELW9MPKtLX",
